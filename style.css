@@ -1,0 +1,124 @@
+/* Global Body Styles */
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* Title Styles */
+.title {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3em;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    padding: 60px 20px;
+    border-radius: 10px;
+    background-color: #ffffff;  /* Added white background */
+}
+
+/* Section Header Styles */
+.section-header {
+    color: #28a745;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Prompt Container Styles */
+.prompt-container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.prompt-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Prompt Text Styles */
+.prompt-text {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Button Container Styles */
+.button-container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Custom Button Styles */
+.stButton > button {
+    background-color: #007bff !important;
+    color: white !important;
+    border: none !important;
+    padding: 15px 30px !important;
+    border-radius: 30px !important;
+    cursor: pointer !important;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.4s ease, transform 0.3s ease !important;
+}
+
+.stButton > button:hover {
+    background-color: #0056b3 !important;
+    transform: scale(1.05);
+}
+
+/* Info Box Styles */
+.info-box {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Streamlit's Default Container */
+.st-emotion-cache-10trblm {
+    padding: 25px !important;
+    border-radius: 12px !important;
+}
+
+/* Link Styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Custom Animation Styles */
+.animate__animated.animate__fadeIn {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
